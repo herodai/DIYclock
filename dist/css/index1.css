@@ -1,0 +1,35 @@
+* {
+  margin: auto;
+  padding: 0;
+  text-align: center; }
+
+#clock {
+  width: 830px;
+  height: 855px;
+  background-image: url(../img/clock1.jpg);
+  text-align: center;
+  position: relative; }
+
+#sec {
+  width: 18px;
+  height: 300px;
+  background-image: url(../img/sec.jpg);
+  position: absolute;
+  top: 130px;
+  left: 400px; }
+
+#min {
+  width: 26px;
+  height: 260px;
+  background-image: url(../img/min.jpg);
+  position: absolute;
+  left: 400px;
+  top: 169px; }
+
+#hour {
+  width: 30px;
+  height: 220px;
+  background-image: url(../img/hour.jpg);
+  position: absolute;
+  left: 400px;
+  top: 210px; }
